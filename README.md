@@ -1,7 +1,7 @@
 # weibo-detect-system
-```
+
 [数据和项目源地址](https://tianchi.aliyun.com/competition/entrance/532363/information)
-```
+
 **对于所有脚本，都需要自行修改路径，如果能帮助整理脚本和路径格式非常感谢🙏**
 
 只使用train数据不使用test数据.
@@ -18,7 +18,7 @@
 
 `weibo-detect-system/meta_data/train.csv`
 
-# 以下是如何构建jsonl数据
+### 构建jsonl数据
 注意脚本中path更改，已进行标注
 
 ```bash
@@ -33,6 +33,9 @@ weibo-detect-system/data_process/data_sense_train.py
 
 这里脚本生成的是content：null的内容，事件敏感程度数据仅30条，通过后处理调用gemini 2.5pro模型生成label使得content内容不为空，用于后续流程
 
+### 模型微调部署
+
+信息都在`weibo-detect-system/stand_qwen_ft`中
 
 
 
