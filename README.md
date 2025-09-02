@@ -35,7 +35,8 @@ weibo-detect-system/data_process/data_sense_train.py
 
 ### 模型微调部署
 
-信息都在`weibo-detect-system/stand_qwen_ft`中
+[modelscope——微调模型下载](https://www.modelscope.cn/models/dabu46/qwen2.5-0.5b-ft-stand_detect/summary)
+详细信息在`weibo-detect-system/stand_qwen_ft/README.md`中
 
 
 
