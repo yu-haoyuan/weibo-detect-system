@@ -1,4 +1,6 @@
-# weibo-detect-system###### 只使用train数据不使用test数据
+# weibo-detect-system
+
+只使用train数据不使用test数据
 *立场倾向判断* *事件敏感程度* 从立场检测_train的数据算，对应文件夹
 ```
 weibo-detect-system/meta_data/立场检测_train
