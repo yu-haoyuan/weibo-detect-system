@@ -1,7 +1,8 @@
 # weibo-detect-system
 ```
-https://tianchi.aliyun.com/competition/entrance/532363/information
+[数据和项目源地址](https://tianchi.aliyun.com/competition/entrance/532363/information)
 ```
+**对于所有脚本，都需要自行修改路径，如果能帮助整理脚本和路径格式非常感谢🙏**
 
 只使用train数据不使用test数据.
 
