@@ -6,11 +6,6 @@
 
 todolist
 ---
-
-<span style="color:green;">- [x]</span> 立场倾向判断 (微调模型)
-  - <span style="color:green;">- [x]</span> 模型微调 (qwen 0.n b)
-  - <span style="color:green;">- [x]</span> 高速推理 (vllm本地部署)
-
 事件分析任务清单
 - [x] **立场倾向判断** (微调模型)
 - [x] **事件敏感程度** (调用大模型)
