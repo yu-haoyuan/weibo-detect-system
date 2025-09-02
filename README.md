@@ -17,8 +17,8 @@
 `事件紧急程度`, `事件影响范围` 从train.csv算 对应文件
 
 `weibo-detect-system/meta_data/train.csv`
----
 
+---
 ### 构建jsonl数据
 注意脚本中path更改，已进行标注
 
@@ -33,8 +33,8 @@ weibo-detect-system/data_process/data_sense_train.py
 脚本生成事件敏感程度`weibo-detect-system/data_process/data_sense_train_gemini.jsonl`
 
 这里脚本生成的是content：null的内容，事件敏感程度数据仅30条，通过后处理调用gemini 2.5pro模型生成label使得content内容不为空，用于后续流程
----
 
+---
 ### 模型微调部署
 
 [modelscope——微调模型下载](https://www.modelscope.cn/models/dabu46/qwen2.5-0.5b-ft-stand_detect/summary)
