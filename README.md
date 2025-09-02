@@ -1,4 +1,7 @@
 # weibo-detect-system
+```
+https://tianchi.aliyun.com/competition/entrance/532363/information
+```
 
 只使用train数据不使用test数据.
 
