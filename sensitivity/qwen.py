@@ -1,4 +1,5 @@
 # 导入所需的库
+#api调用代码
 import os
 from openai import OpenAI
 import json
