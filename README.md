@@ -20,12 +20,13 @@ weibo-detect-system-xiangmuV2.0/
 │   └── calculate_impact.py    # 事件影响范围评估
 ├── templates/              # 前端模板
 │   └── index.html          # 主页面
-├── stand_qwen_ft/          # Qwen模型微调相关
+├── stand_qwen_ft/          # Qwen模型微调相关，微调模型需要根据README.md下载
 │   ├── README.md           # 微调说明文档
 │   ├── data/               # 数据处理脚本
 │   │   ├── split_ft.py     # 数据集拆分
 │   │   └── make_test_stan_jsonl.py  # 生成测试数据
 │   └── infer.py            # 推理脚本
+├── data                    # 从天池网站自行下载！仓库未提供
 ├── uploads/                # 上传文件存储目录
 ├── output/                 # 分析结果存储目录
 ├── requirements.txt        # 项目依赖
